@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.moa.puzzlekit2" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Puzzlekit2</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="https://lotto.gabia.io/memory/intro" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="AdmobPlugin">
+        <param name="android-package" value="com.moa.puzzlekit2.plugin.AdmobPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+</widget>
